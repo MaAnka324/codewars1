@@ -51,3 +51,10 @@ function saleHotdogs(n){
   }
   else if(n >= 10) return n * 90
 }
+
+
+
+////////////////////////////////////
+function sayHello(name) {      
+  return 'Hello, ' + name;    
+}
