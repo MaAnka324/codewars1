@@ -58,3 +58,12 @@ function saleHotdogs(n){
 function sayHello(name) {      
   return 'Hello, ' + name;    
 }
+
+
+
+
+/////////////////////////////// return 5 
+function unusualFive() {
+  let a = ['v', 'g', 'r', 'e', 'o']
+  return a.length;
+}
