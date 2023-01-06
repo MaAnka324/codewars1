@@ -74,3 +74,52 @@ function remove (string) {
   //coding and coding....
   return string.replace(/\!$/, '')
 }
+
+
+/////////////////////////////
+function getSum( a,b )
+{
+   //Good luck!
+  let sum = 0;
+  if (a < b){
+    for(let i = a; i <= b; i++){
+    sum += i
+  }
+  }
+  else{
+    for(let j = b; j <= a; j++){
+    sum += j
+  }
+  return sum;
+}}
+
+
+function isTriangle(a,b,c)
+{
+  if(a<(b+c) || b<(a+c) || c<(a+b)){
+    console.log( true);
+  }
+  else{
+    console.log(false);
+  }
+}
+isTriangle(2,2,7);
+
+
+
+//Квадрат(n) Сумма
+function squareSum(numbers){
+  let sum = 0;
+  for(let i=0; i<numbers.length; i++){
+    let k = Math.pow(numbers[i], 2);
+    sum += k
+  }
+  return sum
+}
+
+
+//MakeUpperCase
+function makeUpperCase(str) {
+  // Code here
+  return str.toUpperCase()
+}
