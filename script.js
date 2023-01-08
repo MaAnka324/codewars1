@@ -123,3 +123,11 @@ function makeUpperCase(str) {
   // Code here
   return str.toUpperCase()
 }
+
+
+///////////////////////////////////
+function past(h, m, s){
+  //#Happy Coding! ^_^
+  let sum = ((h*60*60)+(m*60)+s)*1000
+  return sum
+}
