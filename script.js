@@ -131,3 +131,13 @@ function past(h, m, s){
   let sum = ((h*60*60)+(m*60)+s)*1000
   return sum
 }
+
+
+/////////////////////////////////
+function feast(beast, dish) {
+//your function here
+  if(beast[0] == dish[0] && beast[beast.length-1] == dish[dish.length-1]){
+    return true
+  }
+  else return false
+}
